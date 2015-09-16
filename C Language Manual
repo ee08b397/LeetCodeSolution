@@ -1,0 +1,11 @@
+
+从小到大排序
+void qsort(void *base, int nelem, int width, int (*fcmp)(const void *,const void *));
+
+int num[100];
+
+int cmp ( const void *a , const void *b ){
+	return *(int *)a - *(int *)b; 
+}
+
+qsort(num,100,sizeof(num[0]),cmp);
