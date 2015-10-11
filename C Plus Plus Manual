@@ -133,3 +133,6 @@ iterator rbegin();                //返回string的最后一个字符的位置
 const_iterator rend()const;
 iterator rend();                    //返回string第一个字符位置的前面
 rbegin和rend用于从后向前的迭代访问，通过设置迭代器string::reverse_iterator,string::const_reverse_iterator实现
+
+
+
